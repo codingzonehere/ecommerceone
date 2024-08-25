@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Google font-->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap' />
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="font-awesome/font-awesome.min.css">
+  <!--vendors link-->
+  <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+  <!--Resource Link-->
+  <link rel="stylesheet" href="resource/css/style.css">
+  <link rel="stylesheet" href="resource/css/product.css">
+  <link rel="stylesheet" href="resource/css/responsive.css">
+  <!--Shortcut Icon-->
+  <link rel="shortcut icon" type="image/x-icon" href="img/cropped-Favicon-large.png">
+  <title>E-Commerce Web side</title>
+</head>
+<body>
+<!--header section-->
+<header>
+<nav>
+	<div class="navBarNav">
+		<div class="main">
+			<div class="searchbox">
+				<a href="index.html"><img class="logo" src="img/Logo1.png" alt="Tanvir's Logo" /></a>
+				<input type="text" name="Search" class="form-control" placeholder="Search here!">
+				<span class="input-group-text"><i class="fa fa-search"></i></span>
+			</div>
+		</div>
+		<div class="MenuBar">
+		<ul class="mainNav">
+			<li>
+			  <a href="#">
+				<i class="fa fa-shopping-basket">
+				</i>
+				cart
+			  </a>
+			</li>
+			<li>
+			  <a href="Registration Cared.html"><i class="fa fa-signing"></i>sign in</a>
+			</li>
+			<li>
+			  <a href="Transparent Login Form Design.html"><i class="fa fa-get-pocket"></i>log in</a>
+			</li>
+		</ul>
+  </div>
+  <div class="sub-menu">
+       <i onclick="OpenNavbar()" class="fa fa-bars"></i>
+    <div id="ShowNav" class="overlay">
+       <a href="javascript:void()" onclick="collapseNav()" class="closeBtn">&times;</a>
+        <div class="content-overlay">
+
+            <li>
+			  <a href="#">
+				<i class="fa fa-shopping-basket">
+				</i>
+				cart
+			  </a>
+			</li>
+			<li>
+			  <a href="#"><i class="fa fa-signing"></i>sign in</a>
+			</li>
+			<li>
+        </div>
+    </div>
+</div>
+</div>
+ </nav>
+</header>
+<!-------Single Product----------->
+<section class="Single-Product productindex">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div id="Product-slider" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner ">
+            <div class="carousel-item active imgSlide">
+              <img src="img/fabio-scaletta-cYSRncVxE44-unsplash.jpg" class="d-block w-100" alt="Fashion">
+            </div>
+            <div class="carousel-item imgSlide">
+              <img src="img/laura-chouette-zOY-j9C03Dw-unsplash.jpg" class="d-block w-100" alt="Fashion">
+            </div>
+            <div class="carousel-item imgSlide">
+              <img src="img/sorin-sirbu-ifYt0sKdJYk-unsplash.jpg" class="d-block w-100" alt="Fashion">
+            </div>
+			<div class="carousel-item imgSlide">
+              <img src="img/sarah-noltner-CEGIFgSl1tk-unsplash.jpg" class="d-block w-100" alt="Fashion">
+            </div>
+			<div class="carousel-item imgSlide">
+              <img src="img/vicky-cheng-4mLKBKMPoHo-unsplash.jpg" class="d-block w-100" alt="Fashion">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#Product-slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#Product-slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="leftSideBox">
+			<p class="newArrival text-center">New</p>
+			<h2>Men's likes Any Item</h2>
+			<p>Product Code: IRSC2029</p>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+
+			<p class="price">USD $15.00</p>
+			<p><b>Availability:</b> In Stock</p>
+			<p><b>Condition:</b> New</p>
+			<p><b>Brand:</b> XYZ Company</p>
+			<label for="Quantity">Quantity</label>
+			<input type="text" name="Quantity" value="1">
+			<button class="btn btn-primary AddBtn" type="button" name="button">Add to Cart</button>
+		</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!---Product Description--->
+<section class="ProductDescription">
+  <div class="container">
+    <h6>Product Description</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum? </p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste itaque et vel commodi nulla voluptate cupiditate debitis laborum?</p>
+    <hr>
+  </div>
+</section>
+<!--Sell Product-->
+<section class="sell_Product productSel">
+	<div class="container">
+		<div class="row">
+			<div class="text_box">
+				<h2>Similar<h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<a href="product.html"><img src="img/marek-prygiel-kKgEpUTfH5Y-unsplash.jpg" alt="Fitness Watch" /></a>
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Fitness Watch</h3>
+						<h5>$550.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/mateo-abrahan-vVmfi-yhCsc-unsplash.jpg" alt="Smart Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Smart Watch</h3>
+						<h5>$700.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/paul-volkmer-updW-QUccFE-unsplash.jpg" alt="Shoes Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Formal Shoes</h3>
+						<h5>$900.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/jens-kreuter-PKnn-nXCNhs-unsplash.jpg" alt="Lather Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Lather Watch</h3>
+						<h5>$300.00</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Footer-->
+<section class="FooterSection">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="FooterHead">
+					<h2>Useful Links</h2>
+					<ul>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of use</a></li>
+						<li><a href="#">Return Policy</a></li>
+						<li><a href="#">Discount Coupons</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="FooterHead">
+					<h2>Company</h2>
+					<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Affiliate</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="FooterHead topmr">
+					<h2>Follow Us On</h2>
+					<ul class="Navbar">
+						<li><a href="https://web.facebook.com/mdbiplob.islam.547"><i class="fa fa-facebook"></i><p>Facebook</p></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i><p>YouTube</p></a></li>
+						<li><a href="https://join.skype.com/invite/lvm9Ioeg26W3"><i class="fa fa-skype"></i><p>Skype</p></a></li>
+						<li><i class="fa fa-twitter"></i><a href="https://twitter.com/MdTanvirAhmedB5"><p>Twitter</p></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="FooterHead topmr top">
+					<h2>Download App</h2>
+					<ul>
+						<a href=""><img src="img/App store.png" alt="App store" /></a>
+						<a href=""><img src="img/google play.png" alt="Google Play" /></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<p class="copyright">
+			Created By <i class="fa fa-heart-o"></i> <a href="https://web.facebook.com/mdbiplob.islam.547">Tanvir Ahmed (Biplob)</a>
+		</p>
+	</div>
+</section>
+
+<!--Js-->
+<script src="vendors/js/jquery-slim.min.js"></script>
+<script src="vendors/js/popper.min.js"></script>
+<script src="vendors/js/bootstrap.min.js"></script>
+<script src="resource/js/main.js"></script>
+</body>
+</html>

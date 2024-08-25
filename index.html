@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Google font-->
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap' />
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--vendors link-->
+  <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/css/normalize.css">
+  <link rel="stylesheet" href="vendors/css/Responsive_Grid_System.css">
+  <!--Resource Link-->
+  <link rel="stylesheet" href="resource/css/style.css">
+  <link rel="stylesheet" href="resource/css/responsive.css">
+  <!--Shortcut Icon-->
+  <link rel="shortcut icon" type="image/x-icon" href="img/cropped-Favicon-large.png">
+  <title>E-Commerce Web side</title>
+</head>
+<body>
+<!--header section-->
+<header id="Home">
+	<nav>
+	<div class="navBarNav">
+		<div class="main">
+			<div class="searchbox">
+				<a href="#Home"><img class="logo" src="img/Logo1.png" alt="Tanvir's Logo" /></a>
+				<input type="text" name="Search" class="form-control" placeholder="Search here!">
+				<span class="input-group-text"><i class="fa fa-search"></i></span>
+			</div>
+		</div>
+		<div class="MenuBar">
+		<ul class="mainNav">
+			<li>
+			  <a href="#">
+				<i class="fa fa-shopping-basket">
+				</i>
+				cart
+			  </a>
+			</li>
+			<li>
+			  <a href="Registration Cared.html"><i class="fa fa-signing"></i>sign in</a>
+			</li>
+			<li>
+			  <a href="Transparent Login Form Design.html"><i class="fa fa-get-pocket"></i>log in</a>
+			</li>
+		</ul>
+  </div>
+  <div class="sub-menu">
+       <i onclick="OpenNavbar()" class="fa fa-bars"></i>
+    <div id="ShowNav" class="overlay">
+       <a href="javascript:void()" onclick="collapseNav()" class="closeBtn">&times;</a>
+        <div class="content-overlay">
+			<div class="mainNav">
+			<ul>
+				<li><a href="#">On Sale<i class="fa fa-angle-right"></i></a>
+					<div class="subLink">
+						<ul>
+							<li><a href="#">Link-1</a></li>
+							<li><a href="#">Link-2</a></li>
+							<li><a href="#">Link-3</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Mobiles<i class="fa fa-angle-right"></i></a>
+					<div class="subLink">
+						<ul>
+							<li><a href="#">iPhone</a></li>
+							<li><a href="#">Vivo</a></li>
+							<li><a href="#">Samsung</a></li>
+							<li><a href="#">Symphony</a></li>
+							<li><a href="#">Walton</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Computers<i class="fa fa-angle-right"></i></a>
+					<div class="subLink">
+						<ul>
+							<li><a href="#">Hp</a></li>
+							<li><a href="#">Del</a></li>
+							<li><a href="#">Asus</a></li>
+							<li><a href="#">Aser</a></li>
+							<li><a href="#">Apple</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Books<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Fitness<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Baby Care<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Magazines<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Auto Accessories<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Movie and music<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Video and Game<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Home and Kitchen<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Furniture<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Grocery<i class="fa fa-angle-right"></i></a></li>
+			</ul>
+		</div>
+        </div>
+    </div>
+</div>
+</div>
+ </nav>
+ <div class="Home_Body">
+	 <div class="SideMenu">
+		<div class="mainNav">
+			<ul>
+				<li><a href="#">On Sale<i class="fa fa-angle-right"></i></a>
+					<div class="subLink">
+						<ul>
+							<li><a href="#">Link-1</a></li>
+							<li><a href="#">Link-2</a></li>
+							<li><a href="#">Link-3</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Mobiles<i class="fa fa-angle-right"></i></a>
+					<div class="subLink">
+						<ul>
+							<li><a href="#">iPhone</a></li>
+							<li><a href="#">Vivo</a></li>
+							<li><a href="#">Samsung</a></li>
+							<li><a href="#">Symphony</a></li>
+							<li><a href="#">Walton</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Computers<i class="fa fa-angle-right"></i></a>
+					<div class="subLink">
+						<ul>
+							<li><a href="#">Hp</a></li>
+							<li><a href="#">Del</a></li>
+							<li><a href="#">Asus</a></li>
+							<li><a href="#">Aser</a></li>
+							<li><a href="#">Apple</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Books<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Fitness<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Baby Care<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Magazines<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Auto Accessories<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Movie and music<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Video and Game<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Home and Kitchen<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Furniture<i class="fa fa-angle-right"></i></a></li>
+				<li><a href="#">Grocery<i class="fa fa-angle-right"></i></a></li>
+			</ul>
+		</div>
+	 </div>
+	 <div class="Home_Slider">
+		<section id="showcase" class="bg-white">
+		<div id="mySlide" class="carousel slide" data-ride="carousel">
+		   <ol class="carousel-indicators">
+			   <li data-slide-to="0" data-target="#mySlide" class="active"></li>
+			   <li data-slide-to="1" data-target="#mySlide"></li>
+			   <li data-slide-to="2" data-target="#mySlide"></li>
+		   </ol>
+			<div class="carousel-inner">
+				<div class="carousel-item carousel-img-1 active">
+					<div class="container">
+						<div class="carousel-caption pb-3 mb-3 mb-sm-5 pb-sm-5">
+							<h2 class="display-4">Travel</h2>
+							<p class="lead">We are working with both individuals and businesses from all over the globe to create awesome websites and applications. </p>
+							<a class="btn btn-danger" href="https://travel.com/">Learn More</a>
+						</div>
+					</div>
+				</div>
+				 <div class="carousel-item carousel-img-2">
+					<div class="container">
+						<div class="carousel-caption pb-3 mb-3 mb-sm-5 pb-sm-5 text-right">
+							<h2 class="display-4 boldControl">House Beautiful</h2>
+							<p class="lead">We are working with both individuals and businesses from all over the globe to create awesome websites and applications. </p>
+							<a class="btn btn-warning" href="https://www.housebeautiful.com/">Learn More</a>
+						</div>
+					</div>
+				</div>
+				 <div class="carousel-item carousel-img-3">
+					<div class="container">
+						<div class="carousel-caption pb-3 mb-3 mb-sm-5 pb-sm-5 text-center">
+							<h2 class="display-4">Laptop</h2>
+							<p class="lead">We are working with both individuals and businesses from all over the globe to create awesome websites and applications. </p>
+							<a class="btn btn-success" href="https://www.startech.com.bd/laptop-notebook/laptop">Learn More</a>
+						</div>
+					</div>
+				</div>
+				 <div class="carousel-item carousel-img-4">
+					<div class="container">
+						<div class="carousel-caption pb-3 mb-3 mb-sm-5 pb-sm-5 text-left">
+							<h2 class="display-4">Mobiles</h2>
+							<p class="lead">We are working with both individuals and businesses from all over the globe to create awesome websites and applications. </p>
+							<a class="btn btn-success" href="https://gadgets.ndtv.com/mobiles/all-brands">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item carousel-img-5">
+					<div class="container">
+						<div class="carousel-caption pb-3 mb-3 mb-sm-5 pb-sm-5 text-left">
+							<h2 class="display-4 boldControl tb">Couple Admiring  House</h2>
+							<p class="lead">We are working with both individuals and businesses from all over the globe to create awesome websites and applications. </p>
+							<a class="btn btn-success only" href="https://www.gettyimages.com/search/more-like-this/1146103884?assettype=image&family=creative&license=rf&mediatype=photography&phrase=house#license">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#mySlide" class="carousel-control-prev" data-slide='prev'>
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a href="#mySlide" class="carousel-control-next" data-slide='next'>
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	</section>
+	 </div>
+ </div>
+</header>
+
+<!--Gallery-->
+<section class="Gallery">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="img-fluid" src="img/revolt-164_6wVEHfI-unsplash.jpg" alt="Shoes" />
+				<div class="covertext">
+					<h3>Work Group</h3>
+					<p>---------</p>
+					<ul>
+						<li><a href="https://web.facebook.com/mdbiplob.islam.547"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/MdTanvirAhmedB5"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://join.skype.com/invite/lvm9Ioeg26W3"><i class="fa fa-skype"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img class="img-fluid" src="img/marek-prygiel-kKgEpUTfH5Y-unsplash.jpg" alt="Watch" />
+				<div class="covertext">
+					<h3>Order</h3>
+					<p>-------</p>
+					<ul>
+						<li><a href="https://web.facebook.com/mdbiplob.islam.547"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/MdTanvirAhmedB5"><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""https://join.skype.com/invite/lvm9Ioeg26W3><i class="fa fa-skype"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<img class="img-fluid" src="img/lee-campbell-GI6L2pkiZgQ-unsplash.jpg" alt="Head-phone" />
+				<div class="covertext">
+					<h3>Sele</h3>
+					<p>-------</p>
+					<ul>
+						<li><a href="https://web.facebook.com/mdbiplob.islam.547"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/MdTanvirAhmedB5"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://join.skype.com/invite/lvm9Ioeg26W3"><i class="fa fa-skype"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Sell Product-->
+<section class="sell_Product">
+	<div class="container">
+		<div class="row">
+			<div class="text_box">
+				<h2>On Scale<h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<a href="product.html"><img src="img/pixel-bee-u8isJQ6QjF4-unsplash.jpg" alt="Fitness Watch" /></a>
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Fitness Watch</h3>
+						<h5>$400.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<a href="product.html"><img src="img/mateo-abrahan-vVmfi-yhCsc-unsplash.jpg" alt="Smart Watch" /></a>
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Smart Watch</h3>
+						<h5>$700.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<a href="product.html"><img src="img/lefteris-kallergis-j1GiPlvSGWI-unsplash.jpg" alt="Formal Shoes" /></a>
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Formal Shoes</h3>
+						<h5>$500.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<a href="product.html"><img src="img/jens-kreuter-PKnn-nXCNhs-unsplash.jpg" alt="Lether Watch" /></a>
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Lether Watch</h3>
+						<h5>$300.00</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--New Arrival-->
+<section class="sell_Product NewArrival">
+	<div class="container">
+		<div class="row">
+			<div class="text_box">
+				<h2>New Arrival<h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/marek-prygiel-dOXcpBWc7Yw-unsplash.jpg" alt="Fitness Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Fitness Watch</h3>
+						<h5>$350.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/artur-luczka-N1zRvlXf-IM-unsplash.jpg" alt="Smart Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Smart Watch</h3>
+						<h5>$600.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/radek-skrzypczak-WlB8TsI_th0-unsplash.jpg" alt="Formal Shoes" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Formal Shoes</h3>
+						<h5>$800.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/marek-prygiel-kKgEpUTfH5Y-unsplash.jpg" alt="lether Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Lether Watch</h3>
+						<h5>$550.00</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/hunters-race-Vk3QiwyrAUA-unsplash.jpg" alt="Fitness Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Fitness Watch</h3>
+						<h5>$400.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/alexander-ruiz-sHAucwW08Fk-unsplash.jpg" alt="Smart Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Smart Watch</h3>
+						<h5>$650.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/paul-volkmer-updW-QUccFE-unsplash.jpg" alt="Formal Shoes" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Formal Shoes</h3>
+						<h5>$900.00</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="product_cover">
+					<div class="product_Bg">
+						<img src="img/miss-zhang-livWXsyj09A-unsplash.jpg" alt="lether Watch" />
+						<div class="Product_Icon">
+							<button type="button" name="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa fa-heart-o"></i></button>
+							<button type="button" name="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div class="ProductBottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+						<h3>Lether Watch</h3>
+						<h5>$550.00</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--pay Section-->
+<section class="pySection">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="payBody">
+					<a href="#"><img src="img/unnamed.png" alt="Logo" /></a>
+					<div class="text-hero">
+						<h3><b>
+						100% Orginal items </b>
+						</h3>
+						<p>are available</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="payBody">
+					<a href="#"><img src="img/download.png" alt="Logo" /></a>
+					<div class="text-hero">
+						<h3><b>
+						Return within 30 day </b>
+						</h3>
+						<p>of reciving your order</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="payBody">
+					<a href="#"><img src="img/Logo_Get.png" alt="Logo" /></a>
+					<div class="text-hero">
+						<h3><b>
+						Get free delivery for every </b>
+						</h3>
+						<p>order on more than price</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="payBody">
+					<a href="#"><img src="img/online-payment-background_23-2147697567.jpg" alt="Logo" /></a>
+					<div class="text-hero">
+						<h3><b>
+						Pay Online through multiple </b>
+						</h3>
+						<p>options (card/Net banking)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Footer-->
+<section class="FooterSection">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="FooterHead">
+					<h2>Useful Links</h2>
+					<ul>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of use</a></li>
+						<li><a href="#">Return Policy</a></li>
+						<li><a href="#">Discount Coupons</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="FooterHead">
+					<h2>Company</h2>
+					<ul>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Affiliate</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="FooterHead topmr">
+					<h2>Follow Us On</h2>
+					<ul class="Navbar">
+						<li><a href="https://web.facebook.com/mdbiplob.islam.547"><i class="fa fa-facebook"></i><p>Facebook</p></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i><p>YouTube</p></a></li>
+						<li><a href="https://join.skype.com/invite/lvm9Ioeg26W3"><i class="fa fa-skype"></i><p>Skype</p></a></li>
+						<li><i class="fa fa-twitter"></i><a href="https://twitter.com/MdTanvirAhmedB5"><p>Twitter</p></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="FooterHead topmr top">
+					<h2>Download App</h2>
+					<ul>
+						<a href=""><img src="img/App store.png" alt="App store" /></a>
+						<a href=""><img src="img/google play.png" alt="Google Play" /></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<p class="copyright">
+			Created By <i class="fa fa-heart-o"></i> <a href="https://web.facebook.com/mdbiplob.islam.547">Tanvir Ahmed (Biplob)</a>
+		</p>
+	</div>
+</section>
+<!--Js-->
+<script src="vendors/js/jquery-slim.min.js"></script>
+<script src="vendors/js/popper.min.js"></script>
+<script src="vendors/js/bootstrap.min.js"></script>
+<script src="vendors/js/html5shiv-printshiv.min.js"></script>
+<script src="vendors/js/respond.min.js"></script>
+<script src="vendors/js/selectivizr-min.js"></script>
+<script src="resource/js/main.js"></script>
+</body>
+</html>
