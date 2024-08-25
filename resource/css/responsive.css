@@ -1,0 +1,438 @@
+@media only screen and (max-width: 5000px){
+	.carousel-inner{
+		margin-top: 3.8rem !important;
+	}
+	.sell_Product .product_Bg img{
+		height: 28em;
+	}
+	.sell_Product .btn{
+		margin-top: 0.1rem !important;
+	}
+	.Product_Icon{
+		top: 10%;
+	}
+}
+@media only screen and (max-width: 1370px){
+	.MenuBar ul li{
+		padding: 1.6rem 4rem;
+	}
+}
+@media only screen and (max-width: 1345px){
+	.mainNav li:hover .subLink{
+		margin-left: 24.5rem !important;
+	}
+}
+@media only screen and (max-width: 1345px){
+	.mainNav li:hover .subLink{
+		margin-left: 23.5rem !important;
+	}
+}
+@media only screen and (max-width: 1250px){
+	.MenuBar ul li{
+		padding: 1.6rem 3rem;
+	}
+	.mainNav li:hover .subLink{
+		margin-left: 22.5rem !important;
+	}
+}
+@media only screen and (max-width: 1200px){
+	.mainNav li:hover .subLink{
+		margin-left: 21.5rem !important;
+	}
+}
+@media only screen and (max-width: 1150px){
+	.carousel-item{
+		height: 550px;
+	}
+	.carousel-indicators li{
+		margin-top: -2rem;
+	}
+	.SideMenu{
+		height: 55.2rem;
+	}
+	.mainNav li:hover .subLink{
+		margin-left: 20.5rem !important;
+	}
+}
+@media only screen and (max-width: 1100px){
+	.mainNav li:hover .subLink{
+		margin-left: 19.5rem !important;
+	}
+}
+@media only screen and (max-width: 1080px){
+	.MenuBar ul li{
+		padding: 1.6rem 1.5rem;
+	}
+}
+@media only screen and (max-width: 1050px){
+	.carousel-item{
+		height: 500px;
+	}
+	.SideMenu{
+		height: 50.2rem;
+	}
+	#showcase .carousel-caption{
+		top: 240px;
+	}
+	.mainNav li:hover .subLink{
+		margin-left: 18.5rem !important;
+	}
+	.pySection .payBody img{
+		float: none;
+		text-align: center;
+	}
+	.pySection .payBody .text-hero {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+	.pySection{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.mainNav li:hover .subLink{
+		margin-left: 17.5rem !important;
+	}
+	.sell_Product .product_Bg img{
+		height: 20rem;
+	}
+	.ProductBottom .fa{
+		font-size: 1.8rem;
+		font-weight: bold;
+	}
+	.Product_Icon{
+		top: 5%;
+	}
+	.sell_Product .btn {
+		margin-top: -0.5rem !important;
+	}
+	.ProductBottom h3{
+		font-size: 2.5rem;
+	}
+	.ProductBottom h5{
+		font-size: 1.6rem;
+	}
+	.NewArrival .text_box{
+		padding: 0.7rem 2rem;
+	}
+	.FooterSection .topmr img{
+		width: 80%;
+		height: 5rem;
+	}
+}
+@media only screen and (max-width: 991px){
+	.FooterSection .topmr h2{
+		padding-bottom: 0;
+	}
+	.productindex .carousel-inner{
+		height: 75vh !important;
+	}
+	.productindex .imgSlide img{
+		height: 75vh !important;
+	}
+}
+@media only screen and (max-width: 950px){
+	.carousel-item{
+		height: 445px;
+	}
+	.SideMenu{
+		height: 44.7rem;
+	}
+	#showcase .carousel-caption{
+		top: 200px;
+	}
+	.mainNav li:hover .subLink{
+		margin-left: 16.5rem !important;
+	}
+}
+@media only screen and (max-width: 930px){
+	#showcase .carousel-caption{
+		top: 170px;
+	}
+}
+@media only screen and (max-width: 900px){
+	.mainNav li:hover .subLink{
+		margin-left: 15.5rem !important;
+	}
+}
+@media only screen and (max-width: 850px){
+	.MenuBar{
+		width: 100%;
+		margin-top: -1.9rem;
+		background: orange;
+		text-align: center;
+		height: 6rem;
+	}
+	.searchbox{
+		width: 90%;
+		margin-left: 4rem;
+	}
+	.carousel-item{
+		height: 390px;
+	}
+	.SideMenu{
+		height: 39.2rem;
+		margin-top: 12.8rem;
+	}
+	#showcase .carousel-caption{
+		top: 110px;
+	}
+	.carousel-inner{
+		margin-top: 9.8rem !important;
+	}
+	.mainNav li:hover .subLink{
+		margin-left: 14.5rem !important;
+	}
+	.SideMenu ul li a{
+		font-size: 1.4rem !important;
+	}
+}
+@media only screen and (max-width: 800px){
+	.mainNav li:hover .subLink{
+		margin-left: 13.5rem !important;
+	}
+}
+@media only screen and (max-width: 767px){
+	.Gallery img {
+		margin-bottom: 1rem;
+	}
+	.sell_Product .product_Bg img {
+		height: 40rem;
+		border-radius: 0.2rem;
+	}
+	.ProductBottom h5 {
+		margin-bottom: 1.5rem;
+	}
+	.Product_Icon{
+		top: 20%;
+	}
+	.sell_Product .product_Bg .fa{
+		margin-top: 30%;
+	}
+	.FooterSection{
+		text-align: center;
+	}
+	.FooterHead{
+		margin-top: 3rem;
+	}
+	.FooterSection .topmr img{
+		width: 100%;
+		height: 10rem;
+	}
+	.FooterSection .top h2{
+		padding-bottom: 2rem;
+	}
+	.productindex .carousel-inner{
+		height: 100vh !important;
+	}
+	.productindex .imgSlide img{
+		height: 100vh !important;
+	}
+}
+@media only screen and (max-width: 750px){
+	.SideMenu{
+		display: none;
+	}
+	.Home_Slider{
+		width: 100%;
+		margin-left: 0;
+	}
+	.sub-menu .fa{
+		display: block;
+		z-index: 999999999999999999;
+	}
+}
+@media only screen and (max-width: 730px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 33rem !important;
+	}
+}
+@media only screen and (max-width: 685px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 31rem !important;
+	}
+}
+@media only screen and (max-width: 645px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 29rem !important;
+	}
+}
+@media only screen and (max-width: 606px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 27rem !important;
+	}
+}
+@media only screen and (max-width: 600px){
+	.carousel-inner{
+		border: 0;
+	}
+}
+@media only screen and (max-width: 570px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 25rem !important;
+	}
+}
+@media only screen and (max-width: 550px){
+	.carousel-item{
+		height: 300px;
+	}
+	#showcase .carousel-caption{
+		margin-top: -10rem;
+	}
+	.carousel-indicators li{
+		margin-top: -1rem;
+	}
+	.carousel-inner .carousel-item:nth-child(1) h2, .carousel-inner .carousel-item:nth-child(2) h2, .carousel-inner .carousel-item:nth-child(3) h2, .carousel-inner .carousel-item:nth-child(4) h2, .carousel-inner .carousel-item:nth-child(5) h2 {
+		font-size: 3.5rem;
+	}
+	.carousel-inner .carousel-item:nth-child(1) p, .carousel-inner .carousel-item:nth-child(2) p, .carousel-inner .carousel-item:nth-child(3) p, .carousel-inner .carousel-item:nth-child(4) p, .carousel-inner .carousel-item:nth-child(5) p {
+		font-size: 1.5rem;
+	}
+	.searchbox{
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 530px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 23rem !important;
+	}
+}
+@media only screen and (max-width: 500px){
+	.Registration{
+		width: 350px;
+	}
+	#Register{
+		margin-left: 1rem;
+	}
+	#submit{
+		margin-left: 3rem;
+	}
+}
+@media only screen and (max-width: 490px){
+	.searchbox{
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 485px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 21rem !important;
+	}
+}
+@media only screen and (max-width: 450px){
+	.carousel-item{
+		height: 250px;
+	}
+	.carousel-indicators li{
+		margin-top: 1rem;
+	}
+	.carousel-inner .carousel-item:nth-child(1) p, .carousel-inner .carousel-item:nth-child(2) p, .carousel-inner .carousel-item:nth-child(3) p, .carousel-inner .carousel-item:nth-child(4) p, .carousel-inner .carousel-item:nth-child(5) p {
+		margin-bottom: 0;
+	}
+	.MenuBar ul{
+		margin-left: 10rem;
+	}
+	.MenuBar ul li {
+		padding: 1.6rem 0.8rem;
+	}
+	.boldControl{
+		font-size: 2.5rem !important;
+	}
+}
+@media only screen and (max-width: 445px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 19rem !important;
+	}
+}
+@media only screen and (max-width: 425px){
+	.searchbox{
+		margin-left: -1rem;
+	}
+	.logo {
+		margin: 0.1rem 3rem;
+	}
+	#showcase .carousel-caption {
+		top: 105px;
+	}
+}
+
+@media only screen and (max-width: 406px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 17rem !important;
+	}
+}
+@media only screen and (max-width: 400px){
+	.MenuBar ul{
+		margin-left: 5rem;
+	}
+	.MenuBar ul li {
+		padding: 1.6rem 0.5rem;
+	}
+	.sub-menu .fa-bars {
+		margin: -4.49rem 1rem;
+	}
+	.carousel-item{
+		height: 200px;
+	}
+	.carousel-inner .carousel-item:nth-child(1) p, .carousel-inner .carousel-item:nth-child(2) p, .carousel-inner .carousel-item:nth-child(3) p, .carousel-inner .carousel-item:nth-child(4) p, .carousel-inner .carousel-item:nth-child(5) p {
+		display: none;
+	}
+	.carousel-inner .carousel-item:nth-child(1) h2, .carousel-inner .carousel-item:nth-child(2) h2, .carousel-inner .carousel-item:nth-child(3) h2, .carousel-inner .carousel-item:nth-child(4) h2, .carousel-inner .carousel-item:nth-child(5) h2 {
+		font-size: 3.5rem;
+	}
+	.boldControl{
+		font-size: 2.5rem !important;
+	}
+	.only{
+		margin-top: 1rem !important;
+	}
+	.input-group-text, .form-control{
+		display: none;
+	}
+	.Registration{
+		width: 300px;
+	}
+	#submit{
+		margin-left: 2rem;
+	}
+	#name{
+		width: 255px;
+	}
+	#num{
+		width: 181px;
+	}
+}
+@media only screen and (max-width: 370px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 15rem !important;
+	}
+}
+@media only screen and (max-width: 360px){
+	.Single-Product .AddBtn{
+		margin-top: 1.5rem !important;
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 339px){
+	.Registration{
+		width: 230px;
+	}
+	#submit{
+		margin-left: -1rem;
+	}
+	#name{
+		width: 200px;
+	}
+	#num{
+		width: 125px;
+	}
+}
+@media only screen and (max-width: 325px){
+	.content-overlay .mainNav li:hover .subLink{
+		margin-left: 13rem !important;
+	}
+}
+@media only screen and (max-width: 300px){
+	.MenuBar ul{
+		margin-left: 0;
+	}
+}

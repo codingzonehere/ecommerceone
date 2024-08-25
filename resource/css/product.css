@@ -1,0 +1,101 @@
+*{
+	padding: 0;margin: 0; -webkit-box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+	font-family: 'Sansita Swashed', cursive;
+	text-rendering: optimizeLegibility;
+	line-height: 1.3;
+	background: #f1f2f3;
+}
+.navBarNav{
+	top: 0;
+}
+
+
+/*-----Single-Product-------*/
+.Single-Product{
+	margin-top: 7rem;
+}
+.newArrival{
+	background: green;
+	width: 8rem;
+	padding: 0.6rem 0;
+	color: #fff;
+	font-size: 2.5rem !important;
+	font-weight: bold;
+	margin-top: 2rem;
+	border-radius: 0.2rem;
+}
+
+.Single-Product .fa{
+	color: orange;
+	font-size: 2rem;
+}
+.Single-Product .price{
+	color: orange;
+	font-size: 2.8rem;
+	font-weight: bold;
+	padding-top: 2rem;
+}
+.Single-Product input{
+	border: 0.1rem solid #ccc;
+	font-weight: bold;
+	height: 3.3rem;
+	text-align: center;
+	width: 3rem;
+}
+.Single-Product .btn-primary{
+	background: orange !important;
+	color: #fff;
+	font-size: 1.5rem;
+	margin-left: 2rem;
+	border: none;
+	box-shadow: none !important;
+}
+.Single-Product label{
+	font-size: 2rem;
+}
+.Single-Product .AddBtn{
+	margin-top: -0.1rem !important;
+}
+.leftSideBox{
+	margin-top: 10rem;
+	margin-left: 5rem;
+}
+.leftSideBox h2{
+	font-size: 3rem;
+}
+.leftSideBox p{
+	font-size: 1.6rem;
+}
+.ProductDescription hr{
+	margin-top: 5rem;
+}
+.productSel .text_box{
+	width: 15rem;
+}
+/*------------Product Description---------------*/
+.ProductDescription h6{
+	margin-top: 5rem;
+	color: orange;
+	font-size: 3rem;
+}
+
+.ProductDescription p{
+	margin-top: 3rem;
+	text-align: justify;
+	font-size: 1.5rem;
+}
+.ProductDescription hr{
+	margin-bottom: 5rem;
+}
+.productindex .carousel-inner{
+		height: 85vh !important;
+}
+.productindex .imgSlide img{
+		height: 85vh !important;
+}
